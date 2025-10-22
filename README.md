@@ -15,7 +15,7 @@ A Python package for calculating optical depth power spectra during the Epoch of
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/tauspec
+git clone https://github.com/Anirbancosmo/tauspec_pkg
 cd tauspec
 pip install -e .
 ```
@@ -128,16 +128,43 @@ MIT License
 
 If you use this code in your research, please cite:
 
-```bibtex
-@software{tauspec,
-  author = {Roy, Anirban},
-  title = {TauSpec: Optical Depth Power Spectra Calculator},
-  year = {2025},
-  url = {https://github.com/yourusername/tauspec}
+```
+@article{Roy:2018gcv,
+    author = "Roy, A. and Lapi, A. and Spergel, D. and Baccigalupi, C.",
+    title = "{Observing patchy reionization with future CMB polarization experiments}",
+    eprint = "1801.02393",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    doi = "10.1088/1475-7516/2018/05/014",
+    journal = "JCAP",
+    volume = "05",
+    pages = "014",
+    year = "2018"
 }
 ```
 
+and 
+
+```
+@article{Namikawa:2021zhh,
+    author = "Namikawa, Toshiya and Roy, Anirban and Sherwin, Blake D. and Battaglia, Nicholas and Spergel, David N.",
+    title = "{Constraining reionization with the first measurement of the cross-correlation between the CMB optical-depth fluctuations and the Compton y-map}",
+    eprint = "2102.00975",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    doi = "10.1103/PhysRevD.104.063514",
+    journal = "Phys. Rev. D",
+    volume = "104",
+    number = "6",
+    pages = "063514",
+    year = "2021"
+}
+```
+
+
+
+
 ## References
 
-Based on the methodology described in:
-- Bharadwaj & Ali (2005): https://arxiv.org/abs/astro-ph/0511141
+- Roy et al. (2018): https://arxiv.org/abs/1801.02393
+- Namikawa, Roy, et al. (2021): https://arxiv.org/abs/2102.00975
