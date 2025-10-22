@@ -35,9 +35,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/tauspec"
-Documentation = "https://github.com/yourusername/tauspec"
-Repository = "https://github.com/yourusername/tauspec"
+Homepage = "https://github.com/anirbancosmo/tauspec_pkg"
+Documentation = "https://github.com/anirbancosmo/tauspec_pkg"
+Repository = "https://github.com/anirbancosmo/tauspec_pkg"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
